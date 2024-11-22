@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section {
+    justify-content: center;
+    min-height: 100vh;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(4, 2, 16);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-1 .slick-track {
+    display: flex !important;
+    gap: 20px !important;
+}
+
+.section-1 .slick-dots li {
+    background-color: white !important;
+    width: 28px !important;
+    height: 12px !important;
+    border-radius: 21px;
+}
+
+.section-1 .slick-dots li.slick-active {
+    background-color: blue !important;
+    width: 59px !important;
+}
+
+.section-1 .slick-dots li button {
+    display: none !important;
+}
+
+.section-1 .slick-slide.slick-current.slick-active {
+    border: 1px solid #1219D2;
+}
+
+.section-1 .slick-dots {
+    position: absolute;
+    bottom: -10%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.card {
+    border-radius: 13px;
+    overflow: hidden;
+    border: 1px solid;
+    background-color: #030532;
+}
+
+.heading {
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56.4px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.work {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: white;
+    padding: 22px;
+}
+
+/********** section-2 *********/
+
+.bg-color {
+    background-color: #fff;
+}
+
+.heading-1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    max-width: 500px;
+}
+
+.section-2 .slick-track {
+    display: flex !important;
+    gap: 40px !important;
+}
+
+.section-2 .slick-dots li {
+    background-color: #DDE0E4 !important;
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 21px;
+}
+
+.section-2 .slick-dots li.slick-active {
+    background-color: #f53838 !important;
+    width: 45px !important;
+}
+
+.section-2 .slick-dots li button {
+    display: none !important;
+}
+
+.section-2 .slick-slide.slick-current.slick-active {
+    border: 2px solid #F53838;
+}
+
+.section-2 .slick-dots {
+    position: absolute;
+    right: 38.5%;
+    bottom: -30%;
+}
+
+.prev {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #F53838;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.prev:hover {
+    background-color: #F53838;
+}
+
+.prev:hover path {
+    fill: white;
+}
+
+.next {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #F53838;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.next:hover {
+    background-color: #F53838;
+}
+
+.next:hover path {
+    fill: white;
+}
+
+.data {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    max-width: 550px;
+}
+
+.card-2 {
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    height: 230px;
+    max-width: 400px;
+}
+
+.img {
+    padding-left: 30px;
+}
+
+.name {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.country {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665;
+    padding-left: 15px;
+}
+
+.paragraph-1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #0B132A;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 330px;
+}
+
+.paragraph-2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #0B132A;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    width: 330px;
+}
+
+.paragraph-3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #0B132A;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    width: 330px;
+}
+
+.number {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #0B132A;
+}
+
+/********* section-3 *********/
+.background-color {
+    background-color: #020d15;
+}
+
+.card-3 {
+    background-color: #0389FF1F;
+    border-radius: 20px;
+    width: 946px;
+    height: 253px;
+    position: relative;
+}
+
+.testimonials {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 55.44px;
+    text-align: center;
+    color: white;
+    padding-bottom: 45px;
+}
+
+.para {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-left: 65px;
+    padding-top: 80px;
+    color: #FBFDFF;
+    max-width: 900px;
+}
+
+.image-1 {
+    position: absolute;
+    left: 45%;
+    top: 7%;
+}
+
+.end {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+    color: #FBFDFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-3 .slick-track {
+    display: flex !important;
+    gap: 20px !important;
+}
+
+.section-3 .slick-dots li {
+    background-color: #E3E4E5 !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 28px;
+}
+
+.section-3 .slick-dots li.slick-active {
+    background-color: #0389FF !important;
+    width: 53px !important;
+}
+
+.section-3 .slick-dots li button {
+    display: none !important;
+}
+
+.section-3 .slick-dots {
+    position: absolute;
+    bottom: -20%;
+}
