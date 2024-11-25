@@ -91,7 +91,7 @@
     </section>
     <!--********* section-2 start **********-->
     <section class="bg-color section-2">
-        <div class="container">
+        <div class="container w-100">
             <div class="d-flex justify-content">
                 <div class="heading-1">Trusted by Thousands of Happy Customer</div>
             </div>
@@ -101,7 +101,7 @@
                     this crazy feature.</div>
             </div>
             <div class="my-slider-2">
-                <div class="card-2">
+                <div class="card-2 w-100">
                     <div class="d-flex align-item">
                         <div>
                             <img class="img" src="./images/viezh-robert.svg" alt="viezh-robert">
@@ -120,7 +120,7 @@
                     <div class="paragraph-1">“Wow... I am very happy to use this VPN, it turned out to be more than
                         my expectations and so far there have been no problems. LaslesVPN always the best”.</div>
                 </div>
-                <div class="card-2">
+                <div class="card-2 w-100">
                     <div class="d-flex align-item">
                         <div>
                             <img class="img" src="./images/yessica-christy.svg" alt="viezh-robert">
@@ -139,7 +139,7 @@
                     <div class="paragraph-2">“I like it because I like to travel far and still can connect with high
                         speed.”.</div>
                 </div>
-                <div class="card-2">
+                <div class="card-2 w-100">
                     <div class="d-flex align-item">
                         <div>
                             <img class="img" src="./images/kim-young.svg" alt="viezh-robert">
@@ -158,7 +158,7 @@
                     <div class="paragraph-3">“This is very unusual for my business that currently requires a virtual
                         private network that has high security.”.</div>
                 </div>
-                <div class="card-2">
+                <div class="card-2 w-100">
                     <div class="d-flex align-item">
                         <div>
                             <img class="img" src="./images/viezh-robert.svg" alt="viezh-robert">
@@ -177,7 +177,7 @@
                     <div class="paragraph-1">“Wow... I am very happy to use this VPN, it turned out to be more than
                         my expectations and so far there have been no problems. LaslesVPN always the best”.</div>
                 </div>
-                <div class="card-2">
+                <div class="card-2 w-100">
                     <div class="d-flex align-item">
                         <div>
                             <img class="img" src="./images/yessica-christy.svg" alt="viezh-robert">
@@ -196,7 +196,7 @@
                     <div class="paragraph-2">“I like it because I like to travel far and still can connect with high
                         speed.”.</div>
                 </div>
-                <div class="card-2">
+                <div class="card-2 w-100">
                     <div class="d-flex align-item">
                         <div>
                             <img class="img" src="./images/kim-young.svg" alt="viezh-robert">
@@ -313,26 +313,22 @@
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
                         infinite: true,
                         dots: true
                     }
                 },
                 {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
+                    breakpoint: 768,
                     settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
+                        dots: true,
+                        arrows: false,
+                        prevArrow: false
                     }
-                }
+                },
             ]
         });
         $('.my-slider-3').slick({
