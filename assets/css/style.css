@@ -166,7 +166,7 @@ section {
 .section-2 .slick-dots {
     position: absolute;
     right: 38.5%;
-    bottom: -30%;
+    bottom: -20%;
 }
 
 .prev {
@@ -297,7 +297,6 @@ section {
     color: hsl(225, 58%, 10%);
 }
 
-/********* section-2 end *********/
 /********* section-3 *********/
 .background-color {
     background-color: #020d15;
@@ -306,7 +305,7 @@ section {
 .card-3 {
     background-color: #0389FF1F;
     border-radius: 20px;
-    width: 946px;
+    max-width: 946px;
     height: 253px;
     position: relative;
 }
@@ -328,10 +327,8 @@ section {
     font-weight: 400;
     line-height: 30px;
     text-align: center;
-    padding-left: 65px;
     padding-top: 80px;
     color: #FBFDFF;
-    max-width: 900px;
 }
 
 .image-1 {
@@ -371,11 +368,6 @@ section {
 
 .section-3 .slick-dots li button {
     display: none !important;
-}
-
-.section-3 .slick-dots {
-    position: absolute;
-    bottom: -20%;
 }
 
 /********* section-3 end *********/
