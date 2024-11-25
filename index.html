@@ -17,7 +17,7 @@
 <body>
     <!--******** section-1 start ********-->
     <section class="section-1">
-        <div class="container">
+        <div class="container w-100">
             <div class="heading">Meet Our Team</div>
             <div class="my-slider-1">
                 <div class="card">
@@ -89,7 +89,7 @@
             </div>
         </div>
     </section>
-<!--********* section-2 start **********-->
+    <!--********* section-2 start **********-->
     <section class="bg-color section-2">
         <div class="container">
             <div class="d-flex justify-content">
@@ -112,7 +112,7 @@
                                 <div class="country">Warsaw, Poland</div>
                             </div>
                         </div>
-                        <div class="d-flex">
+                        <div class="d-flex gap-10 pl-40">
                             <div class="number">4.5</div>
                             <img src="./images/star-4235.svg" alt="star-4235">
                         </div>
@@ -131,7 +131,7 @@
                                 <div class="country">Shanxi, China</div>
                             </div>
                         </div>
-                        <div class="d-flex">
+                        <div class="d-flex gap-10 pl-40">
                             <div class="number">4.5</div>
                             <img src="./images/star-4235.svg" alt="star-4235">
                         </div>
@@ -150,7 +150,7 @@
                                 <div class="country">Seoul, South Korea</div>
                             </div>
                         </div>
-                        <div class="d-flex">
+                        <div class="d-flex gap-10 pl-40">
                             <div class="number">4.5</div>
                             <img src="./images/star-4235.svg" alt="star-4235">
                         </div>
@@ -169,7 +169,7 @@
                                 <div class="country">Warsaw, Poland</div>
                             </div>
                         </div>
-                        <div class="d-flex">
+                        <div class="d-flex gap-10 pl-40">
                             <div class="number">4.5</div>
                             <img src="./images/star-4235.svg" alt="star-4235">
                         </div>
@@ -188,7 +188,7 @@
                                 <div class="country">Shanxi, China</div>
                             </div>
                         </div>
-                        <div class="d-flex gap-10">
+                        <div class="d-flex gap-10 pl-40">
                             <div class="number">4.5</div>
                             <img src="./images/star-4235.svg" alt="star-4235">
                         </div>
@@ -207,7 +207,7 @@
                                 <div class="country">Seoul, South Korea</div>
                             </div>
                         </div>
-                        <div class="d-flex">
+                        <div class="d-flex gap-10 pl-40">
                             <div class="number">4.5</div>
                             <img src="./images/star-4235.svg" alt="star-4235">
                         </div>
@@ -273,13 +273,34 @@
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        $('.my-slider-1').slick({
-            dots: true,
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            arrows: false,
+
+        $(document).ready(function () {
+            $('.my-slider-1').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: true,
+                speed: 300,
+                infinite: true,
+                autoplaySpeed: 5000,
+                autoplay: true,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 3,
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
         });
+
         $('.my-slider-2').slick({
             dots: true,
             infinite: true,
@@ -287,14 +308,64 @@
             slidesToScroll: 1,
             arrows: true,
             prevArrow: ".prev",
-            nextArrow: ".next"
+            nextArrow: ".next",
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         });
         $('.my-slider-3').slick({
             centerMode: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             dots: true,
-            arrows: false
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         });
     </script>
 </body>

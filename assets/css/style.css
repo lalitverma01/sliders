@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+/********* section-1 start *********/
 * {
     padding: 0;
     margin: 0;
@@ -39,6 +40,14 @@ section {
     gap: 20px;
 }
 
+.gap-10 {
+    gap: 10px;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
 .container {
     max-width: 1140px;
     padding-left: 12px;
@@ -70,11 +79,6 @@ section {
 
 .section-1 .slick-slide.slick-current.slick-active {
     border: 1px solid #1219D2;
-}
-
-.section-1 .slick-dots {
-    position: absolute;
-    bottom: -10%;
 }
 
 .w-100 {
@@ -118,7 +122,8 @@ section {
     padding: 22px;
 }
 
-/********** section-2 *********/
+/********* section-1 end *********/
+/********** section-2 start *********/
 
 .bg-color {
     background-color: #fff;
@@ -254,7 +259,7 @@ section {
     color: #0B132A;
     padding-left: 30px;
     padding-right: 30px;
-    width: 330px;
+    max-width: 330px;
 }
 
 .paragraph-2 {
@@ -267,7 +272,7 @@ section {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 60px;
-    width: 330px;
+    max-width: 330px;
 }
 
 .paragraph-3 {
@@ -280,7 +285,7 @@ section {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
-    width: 330px;
+    max-width: 330px;
 }
 
 .number {
@@ -289,9 +294,10 @@ section {
     font-weight: 400;
     line-height: 30px;
     text-align: left;
-    color: #0B132A;
+    color: hsl(225, 58%, 10%);
 }
 
+/********* section-2 end *********/
 /********* section-3 *********/
 .background-color {
     background-color: #020d15;
@@ -371,3 +377,5 @@ section {
     position: absolute;
     bottom: -20%;
 }
+
+/********* section-3 end *********/
