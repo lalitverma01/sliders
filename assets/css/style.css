@@ -71,10 +71,16 @@ section {
 .section-1 .slick-dots li.slick-active {
     background-color: blue !important;
     width: 59px !important;
+    bottom: -50%;
 }
 
 .section-1 .slick-dots li button {
     display: none !important;
+}
+
+.section-1 .slick-dots {
+    position: absolute;
+    bottom: -7%;
 }
 
 .section-1 .slick-slide.slick-current.slick-active {
@@ -297,6 +303,7 @@ section {
     color: hsl(225, 58%, 10%);
 }
 
+
 /********* section-3 *********/
 .background-color {
     background-color: #020d15;
@@ -308,6 +315,8 @@ section {
     max-width: 946px;
     height: 253px;
     position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .testimonials {
@@ -366,8 +375,31 @@ section {
     width: 53px !important;
 }
 
+.section-3 .slick-slide.slick-current.slick-active {
+    background-image: url(/images/Ellipse-353.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .section-3 .slick-dots li button {
     display: none !important;
+}
+
+.section-3 .slick-dots {
+    position: absolute;
+    bottom: -20%;
+}
+
+@media (min-width:768px) {
+    section.my-slider-3 .card-3 {
+        max-width: 740px;
+    }
+}
+
+@media (min-width:992px) {
+    section.my-slider-3 .card-3 {
+        max-width: 946px;
+    }
 }
 
 /********* section-3 end *********/
