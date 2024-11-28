@@ -83,7 +83,7 @@ section {
     bottom: -7%;
 }
 
-.section-1 .slick-slide.slick-current.slick-active {
+.section-1 .slick-slide.slick-current.slick-active +* {
     border: 1px solid #1219D2;
 }
 
@@ -390,13 +390,13 @@ section {
     bottom: -20%;
 }
 
-@media (min-width:768px) {
+@media (max-width:768px) {
     section.my-slider-3 .card-3 {
-        max-width: 740px;
+        max-width: 840px;
     }
 }
 
-@media (min-width:992px) {
+@media (max-width:992px) {
     section.my-slider-3 .card-3 {
         max-width: 946px;
     }
